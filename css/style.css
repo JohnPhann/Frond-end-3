@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .font-style {
   font-family: 'Satisfy', sans-serif;
   width: 100%;
@@ -338,3 +339,49 @@ body {
   display: block;
 }
 >>>>>>> 45a1a67b4ac0998289068b5b451cce27fb1cada6
+=======
+#c {
+  float: left;
+  background: #222222;
+  height: 318px; }
+  #c #c1 {
+    height: 100%;
+    width: 100%;
+    text-align: center; }
+    #c #c1 h4 {
+      padding-bottom: 20px;
+      font-family: 'Satisfy', sans-serif;
+      font-size: 44px;
+      color: #FFB03B;
+      margin-top: 30px; }
+    #c #c1 #c3 {
+      margin-bottom: 2px;
+      font-size: 15pt;
+      color: #999999; }
+    #c #c1 #c4 {
+      width: 100%;
+      height: 100%; }
+      #c #c1 #c4 a {
+        width: 50px;
+        height: 100px; }
+        #c #c1 #c4 a i {
+          width: 50px;
+          height: 100%;
+          font-size: 30px;
+          color: white; }
+    #c #c1 p {
+      font-size: 15pt;
+      color: #999999; }
+    #c #c1 #c6 {
+      text-transform: none;
+      font-style: normal;
+      font-size: 15pt;
+      color: #999999; }
+      #c #c1 #c6 a {
+        text-decoration: none;
+        color: white; }
+        #c #c1 #c6 a:hover {
+          text-decoration: underline; }
+
+/*# sourceMappingURL=fooder.css.map */
+>>>>>>> f2a956d6db626e28ef6a71d1eb22116d0f600e44
