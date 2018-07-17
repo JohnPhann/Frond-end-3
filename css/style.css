@@ -1,0 +1,108 @@
+/* Css Dat */
+.bg-im {
+  height: 630px;
+  background-image: url(../img/res02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-im .bg-cl {
+  background-color: rgba(0, 0, 0, 0.61);
+  height: 630px;
+}
+.bg-im .bg-cl .textcenter {
+  float: left;
+  text-align: center;
+  padding: 60px;
+}
+.bg-im .bg-cl .textcenter .header-h {
+  color: #ffb03b;
+  font-size: 46px;
+  font-family: Satisfy sans-serif;
+  font-weight: 300;
+}
+.bg-im .bg-cl .textcenter .header-p {
+  color: #9699a6;
+  font-size: 16px;
+}
+.bg-im .bg-cl .textimg {
+  padding-bottom: 60px;
+  padding-right: 15%;
+  padding-left: 15%;
+  float: left;
+}
+.bg-im .bg-cl .textimg .imgleft {
+  margin: 0;
+  padding: 0;
+}
+.bg-im .bg-cl .textimg .imgleft img {
+  height: 308px;
+  width: 100%;
+  background-size: cover;
+}
+.bg-im .bg-cl .textright {
+  background-color: rgba(14, 4, 4, 0.7);
+  border-right: 2px solid #A87F41;
+  padding: 20px 20px 30px 30px;
+  overflow: auto;
+  float: left;
+}
+.bg-im .bg-cl .textright h2 {
+  color: #FFB03B;
+  font-size: 32px;
+  padding-bottom: 15px;
+  font-family: 'Satisfy', sans-serif;
+}
+.bg-im .bg-cl .textright p {
+  color: #E8E8E8;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.bg-im .bg-cl .textright address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857143;
+  color: #E8E8E8;
+}
+.bg-im .bg-cl .textright address strong {
+  color: #FFB03B;
+  padding: 10px 0px;
+  font-weight: 700;
+}
+.bg-im .bg-cl .textright .btn-read-more {
+  background: #FFB03B;
+  padding: 7px 19px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.bg-im .bg-cl .textright .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+/* End Dat */
