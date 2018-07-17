@@ -148,7 +148,7 @@ body {
 /* Css Dat */
 .bg-im {
   height: 630px;
-  background-image: url(../img/res02.jpg);
+  background-image: url(img/res02.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
