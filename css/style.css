@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .font-style {
   font-family: 'Satisfy', sans-serif;
   width: 100%;
@@ -253,3 +254,87 @@ body {
 }
 /* End Dat */
 >>>>>>> 048dbdc40d7f4b696d916d9f9200cfb75a5cb37b
+=======
+.nghia {
+  background: white;
+  float: left;
+}
+.nghia .n1 {
+  float: left;
+  background: white;
+}
+.nghia .n1 .header-h {
+  color: #FFB03B;
+  font-size: 46px;
+  font-family: 'Satisfy', sans-serif;
+  font-weight: 300;
+}
+.nghia .n1 .header-p {
+  color: gray;
+}
+.nghia .n2 {
+  height: 100px;
+  float: left;
+  background: none;
+}
+.nghia .n2 ul {
+  margin: 0 auto;
+}
+.nghia .n2 ul li {
+  list-style: none;
+  color: #fff;
+  background: none;
+  margin: 5px;
+  border: 1px solid black;
+}
+.nghia .n2 ul li .n5 {
+  background: #FFB03B;
+  color: white;
+}
+.nghia .n2 ul li a {
+  background: none;
+  color: black;
+}
+.nghia .n3 {
+  height: 200px;
+  float: left;
+  background: none;
+}
+.nghia .n3 .menu-restaurant {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  position: relative;
+}
+.nghia .n3 .menu-title {
+  float: left;
+  font-family: Montserrat,arial;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFB03B;
+}
+.nghia .n3 .menu-line {
+  position: absolute;
+  bottom: 6px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  margin-left: .6rem;
+  margin-right: .6rem;
+}
+.nghia .n3 .menu-price {
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nghia .n3 .menu-subtitle {
+  display: block;
+  float: left;
+  color: #B1B1B1;
+  font-family: Satisfy, 'Open Sans', arial;
+  font-size: 1.2rem;
+}
+.nghia .n3 span.clearfix {
+  position: relative;
+  display: block;
+}
+>>>>>>> 45a1a67b4ac0998289068b5b451cce27fb1cada6
