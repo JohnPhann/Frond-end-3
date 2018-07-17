@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.hai1 {
+  width: 100%;
+  height: 500px; }
+  .hai1 .hai11 {
+    width: 100%;
+    height: 200px; }
+    .hai1 .hai11 h1 {
+      font-family: 'Satisfy';
+      font-weight: 300;
+      color: #FFB03B;
+      font-size: 46px;
+      padding-top: 50px; }
+    .hai1 .hai11 p {
+      color: black; }
+  .hai1 .hai12 {
+    width: 100%;
+    height: 300px; }
+    .hai1 .hai12 .haihinh {
+      width: 30%;
+      height: 280px;
+      background: #FFB03B;
+      padding: 0;
+      margin: 0;
+      margin-right: 15%;
+      float: right;
+      margin-top: 5px;
+      border-radius: 5px; }
+      .hai1 .hai12 .haihinh img {
+        width: 100%;
+        padding: 5px;
+        height: 100%; }
+    .hai1 .hai12 .haichu {
+      margin-top: 5px;
+      width: 40%;
+      float: left;
+      margin-left: 15%; }
+      .hai1 .hai12 .haichu h2 {
+        text-align: center;
+        text-align: justify;
+        font-size: 24px;
+        font-family: 'Satisfy';
+        color: #FFB03B; }
+      .hai1 .hai12 .haichu p {
+        text-align: justify; }
+      .hai1 .hai12 .haichu .hai13 {
+        height: 130px;
+        padding: 0;
+        margin: 0; }
+        .hai1 .hai12 .haichu .hai13 i {
+          color: #FFB03B; }
+        .hai1 .hai12 .haichu .hai13 ul {
+          text-align: justify; }
+          .hai1 .hai12 .haichu .hai13 ul li {
+            list-style-type: none;
+            padding-bottom: 7px; }
+
+/*# sourceMappingURL=style.css.map */
