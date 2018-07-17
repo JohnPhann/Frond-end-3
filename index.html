@@ -3,45 +3,140 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Test Day 2</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	
-	<!-- boostrap js -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	
-	<!-- icon -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css"/>
+     <script src="jquery/jquery.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<!-- Phan cua Hai -->
+	<!-- Phan cua Toan -->
 
 	
+	<!-- end Toan -->
+	<!-- Phan Hai -->
+
+
 	<!-- end Hai -->
 	<!-- Phan Dat -->
-
 
 	<!-- end Dat -->
 	<!-- Phan Nghia -->
 
+
 	<!-- end Nghia -->
-	<!-- Phan Toan -->
-
-
-	<!-- end Toan -->
 	<!-- Phan cua Phong -->
 
-	
-	<!-- end Phong -->
-	<!-- Phan cua Cong -->
+     <section id="contact">
+         <div class="container-fluid phong">
+             <div class="row">
+                 <div class="col-md-12 text center">
+                     <h1 class="header-h1">Book Your table</h1>
+                     <p class="header-p">
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                         <br>
+                         nibh euismod tincidunt ut laoreet dolore magna aliquam. 
+                    </p>
 
-	
-	<!-- end Cong -->
-	<!-- Phan cua Hai -->
-	
 
-	<!-- end Hai -->
+               </div>
+
+               <div class="col-md-4 bx1" >
+                    <div class="media-top">
+                         <div class="left-phone">
+                             <span class="glyphicon glyphicon-earphone"></span>
+                        </div>
+                        <div class="right-text">
+                         <h4 class="dark-blue regular">Phone Numbers</h4>
+                         <p class="light-blue regular alt-p">+440 875369208 - <span class="contacts-sp">Phone Booking</span></p>
+                    </div>
+               </div>
+
+               <div class="media-bottom">
+                    <div class="left-time">
+                        <span class="glyphicon glyphicon-time"></span>
+                   </div>
+                   <div class="right-text">
+                     <h4 class="dark-blue regular">Opening Hours</h4>
+                     <p class="light-blue regular alt-p"> Monday to Friday 09.00 - 24:00</p>
+                     <p class="light-blue regular alt-p">
+                         Friday and Sunday 08:00 - 03.00
+                    </p>
+               </div>
+
+          </div>
+
+
+     </div>
+     <div class="col-md-8 bx2">
+
+         <form action="" method="post" role="form" class="contactForm">
+             <div id="sendmessage"></div>
+             <div id="errormessage"></div>
+             <div class="col-md-6 col-sm-6 contact-form pad-form">
+                <div class="form-group label-floating is-empty">
+                   <input type="text" name="name" class="form-control style-input" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                   <div class="validation"></div>
+              </div>
+
+         </div>
+         <div class="col-md-6 col-sm-6 contact-form">
+           <div class="form-group">
+              <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
+              <div class="validation"></div>
+         </div>
+    </div>
+    <div class="col-md-6 col-sm-6 contact-form pad-form">
+      <div class="form-group">
+         <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+         <div class="validation"></div>
+    </div>
+</div>
+<div class="col-md-6 col-sm-6 contact-form">
+ <div class="form-group">
+    <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
+    <div class="validation"></div>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 contact-form">
+ <div class="form-group">
+    <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+    <div class="validation"></div>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 contact-form">
+ <div class="form-group">
+    <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
+    <div class="validation"></div>
+</div>
+</div>
+<div class="col-md-12 contact-form">
+ <div class="form-group label-floating is-empty">
+    <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+    <div class="validation"></div>
+</div>
+
+</div>
+<div class="col-md-12 btnpad">
+ <div class="contacts-btn-pad">
+     <button class="contacts-btn bt">Book Table</button>
+</div>
+</div>
+</form>            
+</div>
+
+</div>
+
+
+</div>
+</section>
+
+
+<!-- end Phong -->
+<!-- Phan cua Cong -->
+
+
+<!-- end Cong -->
 </body>
 </html>
