@@ -1,0 +1,80 @@
+//Phan toan - banner
+.font-style{
+	font-family: 'Satisfy', sans-serif;
+	width: 100%;
+	text-align: center;
+}
+#banner{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/banner-bg.jpg);
+	background-size: cover;
+	position: relative;
+	.bg-img{
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.61);
+		background-size: cover;
+		padding-top: 15%;
+		h1{
+			.font-style();
+			color: orange;
+			font-size: 40pt;
+			font-weight: bold;
+			
+		}
+		h2{
+			.font-style();
+			color: orange;
+			font-size: 35pt;
+		}
+		p{
+			width: 100%;
+			text-align: center;
+			color: #fff;
+			font-size: 25pt;
+		}
+	}
+	
+	#header{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		.pull-right{
+			width: 35px;
+			height: 35px;
+			font-size: 25pt;
+			color: #fff;
+			float: right;
+			text-align: center;
+			line-height: 35px;
+			margin-top: 5%;
+			margin-right: 5%;
+			
+		}
+		.sidenav{
+			height: 100%;
+		    width: 0;
+		    position: fixed;
+		    z-index: 1;
+		    top: 0;
+		    right: 0;
+		    background-color: #111;
+		    overflow-x: hidden;
+		    padding-top: 60px;
+		    transition: 0.5s;
+		    a{
+		    	padding: 8px 8px 8px 32px;
+			    text-decoration: none;
+			    font-size: 25px;
+			    color: #818181;
+			    display: block;
+			    transition: 0.3s;
+			    &:hover{
+			    	color: #fff;
+			    }
+		    }
+		}
+	}
+}// end banner
