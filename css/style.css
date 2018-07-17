@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .font-style {
   font-family: 'Satisfy', sans-serif;
   width: 100%;
@@ -385,3 +386,118 @@ body {
 
 /*# sourceMappingURL=fooder.css.map */
 >>>>>>> f2a956d6db626e28ef6a71d1eb22116d0f600e44
+=======
+.phong {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(221, 221, 221, 0.33);
+}
+.phong .header-h1 {
+  text-align: center;
+  font-family: 'Satisfy', sans-serif;
+  color: #FFB03B;
+  font-size: 46px;
+  padding-top: 50px;
+}
+.phong .header-p {
+  color: #9699a6;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+.phong .bx1 {
+  height: 300px;
+}
+.phong .bx1 .media-top {
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 100%;
+  height: 40%;
+  float: left;
+}
+.phong .bx1 .media-top .left-phone {
+  width: 70px;
+  height: 70px;
+  background-color: #fecc17;
+  border-radius: 50%;
+  float: left;
+  margin-top: 25px;
+}
+.phong .bx1 .media-top .left-phone span {
+  font-size: 35px;
+  line-height: 70px;
+  color: #ffffff;
+  padding-left: 15px;
+}
+.phong .bx1 .media-top .right-text {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+.phong .bx1 .media-top .right-text .dark-blue {
+  color: #31364c;
+  font-size: 24px;
+  margin-top: 0;
+}
+.phong .bx1 .media-top .right-text .light-blue {
+  color: #9699a6;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+.phong .bx1 .media-bottom {
+  padding-left: 50px;
+  width: 100%;
+  height: 40%;
+  float: left;
+}
+.phong .bx1 .media-bottom .left-time {
+  width: 70px;
+  height: 70px;
+  background-color: #ccdb38;
+  border-radius: 50%;
+  float: left;
+  margin-top: 25px;
+}
+.phong .bx1 .media-bottom .left-time span {
+  font-size: 40px;
+  line-height: 70px;
+  color: #ffffff;
+  padding-left: 15px;
+}
+.phong .bx1 .media-bottom .right-text {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+.phong .bx1 .media-bottom .right-text .dark-blue {
+  color: #31364c;
+  font-size: 24px;
+  margin-top: 0;
+}
+.phong .bx1 .media-bottom .right-text .light-blue {
+  color: #9699a6;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+.phong .bx2 {
+  padding-top: 60px;
+}
+.phong .bx2 .style-input {
+  background: none;
+  border: none;
+  border-bottom: solid 1px gray;
+  border-radius: none;
+  background-repeat: no-repeat;
+}
+.phong .bx2 .bt {
+  width: 170px;
+  height: 54px;
+  background-color: #FFB03B;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+  border: 0px;
+  color: #000 !important;
+}
+>>>>>>> af7ecad8e859f0ff814983602dd39a683377e0b8
